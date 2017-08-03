@@ -1,0 +1,3 @@
+baseurl: /mzp
+exclude: ['README.md'] 
+permalink: pretty

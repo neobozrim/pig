@@ -1,0 +1,73 @@
+@import "partials/variables",
+		"partials/mixins";
+
+//@font-face {
+//	font-family: "baconfarm";
+//	src: url('baconfarm.woff') format('woff'),
+//		 url('baconfarm.ttf') format ('truetype');
+//}
+
+@include google-font('Bowlby+One+SC');
+@include google-font('Gloria+Hallelujah');
+@include google-font('Raleway');
+
+html {
+	
+}
+
+body {
+	width: $content-width;
+	margin-left: auto;
+	margin-right: auto;
+ 
+}
+
+.nav {
+	display: inline;
+	font-family: $hand-written;
+	padding: 2%;
+	width: 90%;
+}
+
+h1, h2 h4 {
+ font-family: $headline-font;
+
+}
+
+h3 {
+ font-family: $text-font;
+}
+
+.hand {
+	font-family: $hand-written;
+}
+
+.readable {
+	font-family: $text-font;
+ 	
+}
+
+p {
+
+}
+
+a {
+
+}
+
+#header {
+
+}
+
+#main-menu {
+	li {
+
+	}
+
+	a {
+
+	}
+}
+
+
+
