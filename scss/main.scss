@@ -11,15 +11,45 @@
 @include google-font('Gloria+Hallelujah');
 @include google-font('Raleway');
 
-html {
-	
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.section {
+	display: block;
+	position: relative;
+	float: none;
+}
+
+.white {
+	height: 100%;
+}
+
+.green {
+	height: 100%;
+	background-color: $theme-color;
+}
+
+.header {
+	max-height: $header-height;
+}
+
+.hero-heading {
+	font-size: 90px;
+	font-family: $headline-font;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 body {
-	width: $content-width;
 	margin-left: auto;
 	margin-right: auto;
  
+}
+
+.full-height {
+	height: 100%;
 }
 
 .nav {
@@ -68,6 +98,4 @@ a {
 
 	}
 }
-
-
 
