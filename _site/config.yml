@@ -1,3 +1,4 @@
 baseurl: /pig
 exclude: ['README.md'] 
-permalink: pretty
+permalink: prettys
+

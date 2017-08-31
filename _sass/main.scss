@@ -1,0 +1,177 @@
+@import "partials/variables",
+		"partials/mixins";
+
+//@font-face {
+//	font-family: "baconfarm";
+//	src: url('baconfarm.woff') format('woff'),
+//		 url('baconfarm.ttf') format ('truetype');
+//}
+
+@include google-font('Bowlby+One+SC');
+@include google-font('Gloria+Hallelujah');
+@include google-font('Raleway');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cta {
+	font-family: $headline-font;
+	color: #53585F;
+}
+
+.subscribe {
+	font-size:2rem;
+
+}
+
+.hand-written {
+	font-family: $hand-written;
+}
+
+.menu-container {
+	width: 60%;
+	font-family: $hand-written;
+	padding: 20px 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.menu-item {
+	padding: 0.5rem 2rem;
+}
+
+.logo-size {
+	max-height: 45px;
+	max-width: 45px;
+	border-radius: 30px;
+}
+
+.hero {
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+
+}
+
+.hero-heading {
+	padding-top: 10%;
+	font-size: 90px;
+	font-family: $headline-font;
+	justify-content:center;
+}
+
+.hero-subheading {
+	font-family: $text-font;
+	justify-content:center;
+}
+
+.row {
+	clear: both;
+}
+
+.wrapper {
+	height: 100vh;
+}
+
+.scroll-down {
+	padding-top: 10%;
+	display: flex;
+	justify-content:center;
+}
+
+.signup {
+	padding-top: 5%;
+	display: flex;
+	justify-content:center;
+}
+
+
+
+.signup-block {
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.scrolldown-card {
+	max-height: 30vh;
+}
+
+.signup-card {
+	max-height: 40vh;
+}
+
+.signup-row {
+	width: 100%;
+	   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   justify-content:center;
+}
+
+html, body {
+	@include oak-tree;
+}
+
+.section {
+	display: block;
+	position: relative;
+	float: none;
+}
+
+.white {
+	height: 100%;
+}
+
+.green {
+	height: 100%;
+	background-color: $theme-color;
+}
+
+.header {
+	max-height: $header-height;
+
+}
+
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+ 
+}
+
+.full-height {
+	height: 100%;
+}
+
+.nav {
+	display: inline;
+	font-family: $hand-written;
+	padding: 2%;
+	width: 90%;
+}
+
+.footer {
+	width: 100%;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	font-family: $hand-written;
+}
+
+.footer-item {
+	padding: 0.5rem 2rem;
+	font-family: $hand-written;
+}
+
+.footer-pic-size {
+	max-height: 6%;
+	}
+
+
