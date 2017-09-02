@@ -6,6 +6,16 @@
   padding: 0;
   box-sizing: border-box; }
 
+a {
+  text-decoration: underline;
+  color: #6A6667; }
+
+a:visited {
+  color: #AFAFA8; }
+
+a:hover, a:active {
+  color: black; }
+
 .benefits {
   padding-bottom: 5%; }
 

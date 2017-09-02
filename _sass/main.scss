@@ -17,6 +17,17 @@
   box-sizing: border-box;
 }
 
+a {
+	text-decoration: underline;
+	color: $menu-item-color;
+}
+
+a:visited {
+	color: $text-color;
+	}
+a:hover, a:active {
+	color: black;
+}
 
 .benefits {
 	padding-bottom: 5%;
