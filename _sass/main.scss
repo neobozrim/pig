@@ -28,6 +28,8 @@ $grid__cols: 12;
 .container-n {
 	max-width: $grid__bp-md * 1px;
 	margin: auto auto;
+	display: flex;
+	justify-content: center;
 
 	&--fluid {
 		margin: 0;
@@ -54,21 +56,6 @@ $grid__cols: 12;
 		}
 	}
 }
-//Styling of new containers for flex grid
-.container-n, {
-	background-color: green;
-	padding: 10px;
-	box-sizing:border-box;
-	&__row {
-		background-color: yellow;
-	}
-}
-
-.container-n--fluid {
-	background-color: orange;
-}
-
-//End of Styling
 
 .cta {
 	font-family: $headline-font;
@@ -77,7 +64,7 @@ $grid__cols: 12;
 
 .flex-center {
 	display: flex;
-	justify-content: center;
+	justify-content:center;
 }
 
 .footer {
@@ -140,7 +127,7 @@ $grid__cols: 12;
 }
 
 .hero-heading {
-	padding-top: 5%;
+	padding-top: 10%;
 	font-size: 90px;
 	font-family: $headline-font;
 	justify-content:center;
@@ -156,9 +143,9 @@ $grid__cols: 12;
 }
 
 .scrolldown-card {
-	padding-top: 20%;
+	padding-top: 15%;
 	display: flex;
-	justify-content:center;
+	justify-content: center;
 }
 
 .scrolldown-card__size{

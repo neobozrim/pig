@@ -11,7 +11,9 @@
 
 .container-n {
   max-width: 1000px;
-  margin: auto auto; }
+  margin: auto auto;
+  display: flex;
+  justify-content: center; }
   .container-n--fluid {
     margin: 0;
     max-width: 100%; }
@@ -93,16 +95,6 @@
       flex-basis: 100%;
       display: flex; } }
 
-.container-n {
-  background-color: green;
-  padding: 10px;
-  box-sizing: border-box; }
-  .container-n__row {
-    background-color: yellow; }
-
-.container-n--fluid {
-  background-color: orange; }
-
 .cta {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }
@@ -157,7 +149,7 @@
   justify-content: center; }
 
 .hero-heading {
-  padding-top: 5%;
+  padding-top: 10%;
   font-size: 90px;
   font-family: "Bowlby One SC", cursive;
   justify-content: center; }
@@ -170,7 +162,7 @@
   max-height: 40vh; }
 
 .scrolldown-card {
-  padding-top: 20%;
+  padding-top: 15%;
   display: flex;
   justify-content: center; }
 
