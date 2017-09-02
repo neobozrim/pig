@@ -44,7 +44,7 @@ $grid__cols: 12;
 
 .container-n {
 	max-width: $grid__bp-md * 1px;
-	margin: auto auto;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 
@@ -126,33 +126,6 @@ $grid__cols: 12;
 	font-family: $hand-written;
 }
 
-.menu-container {
-	width: 100%;
-	font-family: $hand-written;
-	padding: 20px 0;
-	&__row {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: flex-start;
-		width: 100%;
-	}
-}
-
-.menu-item {
-	display: flex;
-	align-items: flex-start;
-}
-
-.logo-padding {
-	padding-left: 20px;
-}
-
-.logo-size {
-	max-height: 45px;
-	max-width: 45px;
-	border-radius: 30px;
-}
-
 .hero {
 	width: 100%;
 	display: flex;
@@ -175,6 +148,38 @@ $grid__cols: 12;
 	justify-content:center;
 }
 
+.logo-padding {
+	padding-left: 20px;
+}
+
+.logo-size {
+	max-height: 45px;
+	max-width: 45px;
+	border-radius: 30px;
+}
+
+.menu-container {
+	width: 100%;
+	font-family: $hand-written;
+	padding: 20px 0;
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		width: 100%;
+	}
+}
+
+.menu-item {
+	display: flex;
+	align-items: flex-start;
+}
+
+.messenger-pic {
+	max-height: 135px;
+	max-width: 135px;
+}
+
 .signup-card-size {
 	max-height: 40vh;
 }
@@ -187,6 +192,10 @@ $grid__cols: 12;
 
 .scrolldown-card__size{
 	max-height: 20vh;
+}
+
+.vertical-space {
+	margin: 5% 0;
 }
 
 .wrapper {
