@@ -19,18 +19,24 @@
 
 a {
 	text-decoration: underline;
-	color: $menu-item-color;
+	color: $light-grey;
 }
 
 a:visited {
-	color: $text-color;
-	}
+	color: $light-grey;
+}
+
 a:hover, a:active {
-	color: black;
+	color: $black;
 }
 
 .benefits {
-	padding-bottom: 5%;
+	font-family: $hand-written;
+	font-size: 1rem;
+	line-height: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: $darker-grey;
 }
 
 $grid__bp-md: 1000;
@@ -71,6 +77,25 @@ $grid__cols: 12;
 .cta {
 	font-family: $headline-font;
 	color: #53585F;
+}
+
+.center-vertically {
+	margin-top: 20%;
+}
+
+.internal-heading {
+	font-size: 1.5rem;
+	font-family: $headline-font;
+}
+
+.internal-copy {
+	font-family: $hand-written;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: $darker-grey;
+
 }
 
 .flex-center {
@@ -146,6 +171,7 @@ $grid__cols: 12;
 
 .hero-subheading {
 	font-family: $text-font;
+	font-size: 1.5rem;
 	justify-content:center;
 }
 
@@ -164,6 +190,6 @@ $grid__cols: 12;
 }
 
 .wrapper {
-	height: 100vh;
+	height: 95vh;
 }
 

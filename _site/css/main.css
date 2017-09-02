@@ -8,7 +8,7 @@
 
 a {
   text-decoration: underline;
-  color: #6A6667; }
+  color: #AFAFA8; }
 
 a:visited {
   color: #AFAFA8; }
@@ -17,7 +17,12 @@ a:hover, a:active {
   color: black; }
 
 .benefits {
-  padding-bottom: 5%; }
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #6A6667; }
 
 .container-n {
   max-width: 1000px;
@@ -109,6 +114,21 @@ a:hover, a:active {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }
 
+.center-vertically {
+  margin-top: 20%; }
+
+.internal-heading {
+  font-size: 1.5rem;
+  font-family: "Bowlby One SC", cursive; }
+
+.internal-copy {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #6A6667; }
+
 .flex-center {
   display: flex;
   justify-content: center; }
@@ -166,6 +186,7 @@ a:hover, a:active {
 
 .hero-subheading {
   font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
   justify-content: center; }
 
 .signup-card-size {
@@ -180,6 +201,6 @@ a:hover, a:active {
   max-height: 20vh; }
 
 .wrapper {
-  height: 100vh; }
+  height: 95vh; }
 
 /*# sourceMappingURL=main.css.map */
