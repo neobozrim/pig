@@ -17,144 +17,67 @@
   box-sizing: border-box;
 }
 
+
+.benefits {
+	padding-bottom: 5%;
+}
+
+$grid__bp-md: 1000;
+$grid__cols: 12;
+
+.container-n {
+	max-width: $grid__bp-md * 1px;
+	margin: auto auto;
+
+	&--fluid {
+		margin: 0;
+		max-width: 100%;
+	}
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+
+	}
+	@for $i from 1 through $grid__cols {
+	&__col-sm-#{$i} {
+		flex-basis: ((100/$grid__cols) * $i) * 1%;
+		display: flex;
+	}
+}
+	@media screen and (min-width: $grid__bp-md * 1px) {
+		@for $i from 1 through $grid__cols {
+			&__col-md-#{$i} {
+				flex-basis: ((100/$grid__cols) * $i) * 1%;
+				display: flex;
+			}
+		}
+	}
+}
+//Styling of new containers for flex grid
+.container-n, {
+	background-color: green;
+	padding: 10px;
+	box-sizing:border-box;
+	&__row {
+		background-color: yellow;
+	}
+}
+
+.container-n--fluid {
+	background-color: orange;
+}
+
+//End of Styling
+
 .cta {
 	font-family: $headline-font;
 	color: #53585F;
 }
 
-.subscribe {
-	font-size:2rem;
-
-}
-
-.hand-written {
-	font-family: $hand-written;
-}
-
-.menu-container {
-	width: 60%;
-	font-family: $hand-written;
-	padding: 20px 0;
+.flex-center {
 	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.menu-item {
-	padding: 0.5rem 2rem;
-}
-
-.logo-size {
-	max-height: 45px;
-	max-width: 45px;
-	border-radius: 30px;
-}
-
-.hero {
-	width: 90%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content:center;
-
-}
-
-.hero-heading {
-	padding-top: 10%;
-	font-size: 90px;
-	font-family: $headline-font;
-	justify-content:center;
-}
-
-.hero-subheading {
-	font-family: $text-font;
-	justify-content:center;
-}
-
-.row {
-	clear: both;
-}
-
-.wrapper {
-	height: 100vh;
-}
-
-.scroll-down {
-	padding-top: 10%;
-	display: flex;
-	justify-content:center;
-}
-
-.signup {
-	padding-top: 5%;
-	display: flex;
-	justify-content:center;
-}
-
-
-
-.signup-block {
-	padding-right: 2%;
-	padding-left: 2%;
-}
-
-.scrolldown-card {
-	max-height: 30vh;
-}
-
-.signup-card {
-	max-height: 40vh;
-}
-
-.signup-row {
-	width: 100%;
-	   display: -webkit-flex;
-   display: flex;
-   -webkit-flex-direction: row;
-   flex-direction: row;
-   justify-content:center;
-}
-
-// html, body {
-//	@include oak-tree;
-// }
-
-
-.section {
-	display: block;
-	position: relative;
-	float: none;
-}
-
-.white {
-	height: 100%;
-}
-
-.green {
-	height: 100%;
-	background-color: $theme-color;
-}
-
-.header {
-	max-height: $header-height;
-
-}
-
-
-body {
-	margin-left: auto;
-	margin-right: auto;
- 
-}
-
-.full-height {
-	height: 100%;
-}
-
-.nav {
-	display: inline;
-	font-family: $hand-written;
-	padding: 2%;
-	width: 90%;
+	justify-content: center;
 }
 
 .footer {
@@ -173,6 +96,76 @@ body {
 
 .footer-pic-size {
 	max-height: 6%;
-	}
+}
 
+
+.hand-written {
+	font-family: $hand-written;
+}
+
+.menu-container {
+	width: 100%;
+	font-family: $hand-written;
+	padding: 20px 0;
+	&__row {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		width: 100%;
+	}
+}
+
+.menu-item {
+	display: flex;
+	align-items: flex-start;
+}
+
+.logo-padding {
+	padding-left: 20px;
+}
+
+.logo-size {
+	max-height: 45px;
+	max-width: 45px;
+	border-radius: 30px;
+}
+
+.hero {
+	width: 100%;
+	display: flex;
+	// lex-wrap: wrap;
+	justify-content:center;
+	//align-content: center;
+
+}
+
+.hero-heading {
+	padding-top: 5%;
+	font-size: 90px;
+	font-family: $headline-font;
+	justify-content:center;
+}
+
+.hero-subheading {
+	font-family: $text-font;
+	justify-content:center;
+}
+
+.signup-card-size {
+	max-height: 40vh;
+}
+
+.scrolldown-card {
+	padding-top: 20%;
+	display: flex;
+	justify-content:center;
+}
+
+.scrolldown-card__size{
+	max-height: 20vh;
+}
+
+.wrapper {
+	height: 100vh;
+}
 

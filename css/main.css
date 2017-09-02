@@ -6,109 +6,110 @@
   padding: 0;
   box-sizing: border-box; }
 
+.benefits {
+  padding-bottom: 5%; }
+
+.container-n {
+  max-width: 1000px;
+  margin: auto auto; }
+  .container-n--fluid {
+    margin: 0;
+    max-width: 100%; }
+  .container-n__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+  .container-n__col-sm-1 {
+    flex-basis: 8.33333%;
+    display: flex; }
+  .container-n__col-sm-2 {
+    flex-basis: 16.66667%;
+    display: flex; }
+  .container-n__col-sm-3 {
+    flex-basis: 25%;
+    display: flex; }
+  .container-n__col-sm-4 {
+    flex-basis: 33.33333%;
+    display: flex; }
+  .container-n__col-sm-5 {
+    flex-basis: 41.66667%;
+    display: flex; }
+  .container-n__col-sm-6 {
+    flex-basis: 50%;
+    display: flex; }
+  .container-n__col-sm-7 {
+    flex-basis: 58.33333%;
+    display: flex; }
+  .container-n__col-sm-8 {
+    flex-basis: 66.66667%;
+    display: flex; }
+  .container-n__col-sm-9 {
+    flex-basis: 75%;
+    display: flex; }
+  .container-n__col-sm-10 {
+    flex-basis: 83.33333%;
+    display: flex; }
+  .container-n__col-sm-11 {
+    flex-basis: 91.66667%;
+    display: flex; }
+  .container-n__col-sm-12 {
+    flex-basis: 100%;
+    display: flex; }
+  @media screen and (min-width: 1000px) {
+    .container-n__col-md-1 {
+      flex-basis: 8.33333%;
+      display: flex; }
+    .container-n__col-md-2 {
+      flex-basis: 16.66667%;
+      display: flex; }
+    .container-n__col-md-3 {
+      flex-basis: 25%;
+      display: flex; }
+    .container-n__col-md-4 {
+      flex-basis: 33.33333%;
+      display: flex; }
+    .container-n__col-md-5 {
+      flex-basis: 41.66667%;
+      display: flex; }
+    .container-n__col-md-6 {
+      flex-basis: 50%;
+      display: flex; }
+    .container-n__col-md-7 {
+      flex-basis: 58.33333%;
+      display: flex; }
+    .container-n__col-md-8 {
+      flex-basis: 66.66667%;
+      display: flex; }
+    .container-n__col-md-9 {
+      flex-basis: 75%;
+      display: flex; }
+    .container-n__col-md-10 {
+      flex-basis: 83.33333%;
+      display: flex; }
+    .container-n__col-md-11 {
+      flex-basis: 91.66667%;
+      display: flex; }
+    .container-n__col-md-12 {
+      flex-basis: 100%;
+      display: flex; } }
+
+.container-n {
+  background-color: green;
+  padding: 10px;
+  box-sizing: border-box; }
+  .container-n__row {
+    background-color: yellow; }
+
+.container-n--fluid {
+  background-color: orange; }
+
 .cta {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }
 
-.subscribe {
-  font-size: 2rem; }
-
-.hand-written {
-  font-family: "Gloria Hallelujah", cursive; }
-
-.menu-container {
-  width: 60%;
-  font-family: "Gloria Hallelujah", cursive;
-  padding: 20px 0;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center; }
-
-.menu-item {
-  padding: 0.5rem 2rem; }
-
-.logo-size {
-  max-height: 45px;
-  max-width: 45px;
-  border-radius: 30px; }
-
-.hero {
-  width: 90%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.hero-heading {
-  padding-top: 10%;
-  font-size: 90px;
-  font-family: "Bowlby One SC", cursive;
-  justify-content: center; }
-
-.hero-subheading {
-  font-family: "Raleway", sans-serif;
-  justify-content: center; }
-
-.row {
-  clear: both; }
-
-.wrapper {
-  height: 100vh; }
-
-.scroll-down {
-  padding-top: 10%;
+.flex-center {
   display: flex;
   justify-content: center; }
-
-.signup {
-  padding-top: 5%;
-  display: flex;
-  justify-content: center; }
-
-.signup-block {
-  padding-right: 2%;
-  padding-left: 2%; }
-
-.scrolldown-card {
-  max-height: 30vh; }
-
-.signup-card {
-  max-height: 40vh; }
-
-.signup-row {
-  width: 100%;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-direction: row;
-  flex-direction: row;
-  justify-content: center; }
-
-.section {
-  display: block;
-  position: relative;
-  float: none; }
-
-.white {
-  height: 100%; }
-
-.green {
-  height: 100%;
-  background-color: #669A0F; }
-
-.header {
-  max-height: 7%; }
-
-body {
-  margin-left: auto;
-  margin-right: auto; }
-
-.full-height {
-  height: 100%; }
-
-.nav {
-  display: inline;
-  font-family: "Gloria Hallelujah", cursive;
-  padding: 2%;
-  width: 90%; }
 
 .footer {
   width: 100%;
@@ -124,5 +125,59 @@ body {
 
 .footer-pic-size {
   max-height: 6%; }
+
+.hand-written {
+  font-family: "Gloria Hallelujah", cursive; }
+
+.menu-container {
+  width: 100%;
+  font-family: "Gloria Hallelujah", cursive;
+  padding: 20px 0; }
+  .menu-container__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%; }
+
+.menu-item {
+  display: flex;
+  align-items: flex-start; }
+
+.logo-padding {
+  padding-left: 20px; }
+
+.logo-size {
+  max-height: 45px;
+  max-width: 45px;
+  border-radius: 30px; }
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.hero-heading {
+  padding-top: 5%;
+  font-size: 90px;
+  font-family: "Bowlby One SC", cursive;
+  justify-content: center; }
+
+.hero-subheading {
+  font-family: "Raleway", sans-serif;
+  justify-content: center; }
+
+.signup-card-size {
+  max-height: 40vh; }
+
+.scrolldown-card {
+  padding-top: 20%;
+  display: flex;
+  justify-content: center; }
+
+.scrolldown-card__size {
+  max-height: 20vh; }
+
+.wrapper {
+  height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */
