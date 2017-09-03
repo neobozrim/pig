@@ -78,39 +78,63 @@ a:hover, a:active {
     .container-n__col-md-1 {
       flex-basis: 8.33333%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-2 {
       flex-basis: 16.66667%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-3 {
       flex-basis: 25%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-4 {
       flex-basis: 33.33333%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-5 {
       flex-basis: 41.66667%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-6 {
       flex-basis: 50%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-7 {
       flex-basis: 58.33333%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-8 {
       flex-basis: 66.66667%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-9 {
       flex-basis: 75%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-10 {
       flex-basis: 83.33333%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-11 {
       flex-basis: 91.66667%;
       display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; }
     .container-n__col-md-12 {
       flex-basis: 100%;
-      display: flex; } }
+      display: flex; }
+    .container-n .internal-copy {
+      font-size: 1rem; } }
 
 .cta {
   font-family: "Bowlby One SC", cursive;
@@ -124,18 +148,6 @@ hr {
   height: 1px;
   color: #AFAFA8;
   margin-top: 5%; }
-
-.internal-heading {
-  font-size: 1.5rem;
-  font-family: "Bowlby One SC", cursive; }
-
-.internal-copy {
-  font-family: "Gloria Hallelujah", cursive;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  color: #6A6667; }
 
 .flex-center {
   display: -webkit-box;
@@ -174,6 +186,21 @@ hr {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+
+.internal-heading {
+  font-size: 2.5rem;
+  font-family: "Bowlby One SC", cursive; }
+  @media screen and (min-width: 500px) {
+    .internal-heading {
+      font-size: 1.5rem; } }
+
+.internal-copy {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #6A6667; }
 
 .logo-padding {
   padding-left: 20px; }
