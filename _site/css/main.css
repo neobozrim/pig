@@ -110,6 +110,9 @@ a:hover, a:active {
       flex-basis: 100%;
       display: flex; } }
 
+@media screen and (max-width: 500px) {
+  .internal-copy {
+    font-size: 6vh; } }
 .cta {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }

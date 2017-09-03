@@ -74,6 +74,12 @@ $grid__cols: 12;
 	}
 }
 
+	@media screen and (max-width: 500px) {
+		.internal-copy {
+			font-size: 6vh;
+		}
+	}
+
 .cta {
 	font-family: $headline-font;
 	color: #53585F;
