@@ -68,7 +68,7 @@ $grid__cols: 12;
 				display: flex;
 			}
 		.internal-copy {
-			font-size: 1rem;
+			font-size: 1.5rem;
 		}
 		}
 	}
@@ -152,8 +152,8 @@ hr {
 
 .internal-copy {
 	font-family: $hand-written;
-	font-size: 2.5rem;
-	line-height: 2rem;
+	font-size: 3.5rem;
+	line-height: 3rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	color: $darker-grey;
@@ -228,11 +228,5 @@ hr {
 	min-height: 100vh;
 }
 
-
-	@media only screen and (max-width: 500px) {
-		.internal-copy, .internal-heading {
-			font-size: 3rem;
-		}
-	}
 
 
