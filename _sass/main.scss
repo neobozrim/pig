@@ -67,6 +67,9 @@ $grid__cols: 12;
 				flex-basis: ((100/$grid__cols) * $i) * 1%;
 				display: flex;
 			}
+		.internal-heading {
+			font-size: 2.5rem;
+		}
 		.internal-copy {
 			font-size: 1.5rem;
 		}
@@ -142,12 +145,8 @@ hr {
 }
 
 .internal-heading {
-	font-size: 2.5rem;
+	font-size: 3.5rem;
 	font-family: $headline-font;
-
-	@media screen and (min-width: 500px) {
-	font-size: 1.5rem;		
-	}
 }
 
 .internal-copy {
