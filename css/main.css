@@ -1,11 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC);
 @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
 a {
   text-decoration: underline;
   color: #AFAFA8; }
@@ -27,13 +22,20 @@ a:hover, a:active {
 .container-n {
   max-width: 1000px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
   .container-n--fluid {
     margin: 0;
     max-width: 100%; }
   .container-n__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     width: 100%; }
   .container-n__col-sm-1 {
@@ -110,9 +112,6 @@ a:hover, a:active {
       flex-basis: 100%;
       display: flex; } }
 
-@media screen and (max-width: 500px) {
-  .internal-copy {
-    font-size: 6vh; } }
 .cta {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }
@@ -139,7 +138,11 @@ hr {
   color: #6A6667; }
 
 .flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .footer-pic-size {
@@ -150,18 +153,26 @@ hr {
 
 .hero {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .hero-heading {
   padding-top: 10%;
   font-size: 90px;
   font-family: "Bowlby One SC", cursive;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .hero-subheading {
   font-family: "Raleway", sans-serif;
   font-size: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .logo-padding {
@@ -177,13 +188,22 @@ hr {
   font-family: "Gloria Hallelujah", cursive;
   padding: 20px 0; }
   .menu-container__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     width: 100%; }
 
 .menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start; }
 
 .messenger-pic {
@@ -195,7 +215,11 @@ hr {
 
 .scrolldown-card {
   padding-top: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .scrolldown-card__size {
@@ -207,5 +231,9 @@ hr {
 .wrapper {
   height: 100%;
   min-height: 100vh; }
+
+@media only screen and (max-width: 500px) {
+  .internal-copy, .internal-heading {
+    font-size: 2rem; } }
 
 /*# sourceMappingURL=main.css.map */
