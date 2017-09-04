@@ -9,7 +9,7 @@
   .hero-heading {
     padding-top: 10%;
     font-size: 3.5rem;
-    padding-left: auto; } }
+    padding-left: 5%; } }
 @media screen and (min-width: 641px), or and (-webkit-max-device-pixel-ratio: 1), or and (min-device-width: 640px) {
   .mobile-menu {
     display: block;
