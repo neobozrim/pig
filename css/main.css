@@ -4,12 +4,20 @@
 @media screen and (max-width: 640px), or and (-webkit-max-device-pixel-ratio: 1), or and (max-device-width: 640px) {
   .menu-container {
     display: block;
-    display: none; } }
+    display: none; }
+
+  .hero-heading {
+    padding-top: 10%;
+    font-size: 3.5rem; } }
 @media screen and (min-width: 641px), or and (-webkit-max-device-pixel-ratio: 1), or and (min-device-width: 640px) {
   .mobile-menu {
     display: block;
     display: none;
-    clear: both; } }
+    clear: both; }
+
+  .hero-heading {
+    padding-top: 10%;
+    font-size: 4rem; } }
 /*Create a horizontal list with spacing*/
 li {
   display: inline-block; }
@@ -288,7 +296,6 @@ hr {
 
 .hero-heading {
   padding-top: 10%;
-  font-size: 90px;
   font-family: "Bowlby One SC", cursive;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
