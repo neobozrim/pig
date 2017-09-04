@@ -17,6 +17,10 @@
 @media screen and (max-width: 640px), 
 			or and (-webkit-max-device-pixel-ratio:1), 
 			or and (max-device-width: 640px) {
+
+	.arrow-top {
+		margin-top: 10%;
+	}
 	.menu-container {
 		display: block;
 		display: none;
@@ -42,6 +46,10 @@
 	.scrolldown-card__size{
 	max-height: 30vh;
 	}
+
+	.vertical-space {
+		margin: 25% 0;
+	}
 }
 
 @media screen and (min-width: 641px), 
@@ -64,6 +72,10 @@
 
 	.scrolldown-card__size{
 		max-height: 20vh;
+	}
+
+	.vertical-space {
+	margin: 15% 0;
 	}
 }
 
@@ -335,10 +347,6 @@ hr {
 
 .signup-card-size {
 	max-height: 40vh;
-}
-
-.vertical-space {
-	margin: 5% 0;
 }
 
 .wrapper {
