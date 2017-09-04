@@ -5,6 +5,15 @@
 @include google-font('Gloria+Hallelujah');
 @include google-font('Raleway');
 
+.scrolldown-card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+
 @media screen and (max-width: 640px), 
 			or and (-webkit-max-device-pixel-ratio:1), 
 			or and (max-device-width: 640px) {
@@ -16,8 +25,15 @@
 		padding-top: 10%;
 		font-size: 3.5rem;
 		padding-left: 5%;
-
 	}
+
+	.scrolldown-card {
+		padding-top: 25%;
+	}
+
+	.scrolldown-card__size{
+	max-height: 30vh;
+}
 }
 
 @media screen and (min-width: 641px), 
@@ -32,6 +48,14 @@
 	.hero-heading {
 		padding-top: 10%;
 		font-size: 4rem;
+	}
+
+	.scrolldown-card {
+		padding-top: 15%;
+	}
+
+	.scrolldown-card__size{
+		max-height: 20vh;
 	}
 }
 
@@ -302,20 +326,6 @@ hr {
 
 .signup-card-size {
 	max-height: 40vh;
-}
-
-.scrolldown-card {
-	padding-top: 15%;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
-}
-
-.scrolldown-card__size{
-	max-height: 20vh;
 }
 
 .vertical-space {
