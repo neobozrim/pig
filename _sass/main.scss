@@ -59,8 +59,8 @@ $grid__cols: 12;
 	&__col-sm-#{$i} {
 		flex-basis: ((100/$grid__cols) * $i) * 1%;
 		display: flex;
+		}
 	}
-}
 	@media screen and (min-width: $grid__bp-md * 1px) {
 		@for $i from 1 through $grid__cols {
 			&__col-md-#{$i} {
@@ -72,6 +72,10 @@ $grid__cols: 12;
 		}
 		.internal-copy {
 			font-size: 1.5rem;
+		}
+
+		.menu-item {
+			font-size: 1rem;
 		}
 		}
 	}
@@ -123,7 +127,6 @@ hr {
 	-webkit-box-pack:center;
 	    -ms-flex-pack:center;
 	        justify-content:center;
-	//align-content: center;
 
 }
 
@@ -169,9 +172,29 @@ hr {
 	border-radius: 30px;
 }
 
+@media only screen and (max-width: 500px) {
+	.menu-container {
+		display: block;
+		display: none;
+	} 
+}
+
+@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
+	.menu-container {
+		display: block;
+		display: none;
+	}
+	.menu-item {
+		display: block;
+		display: none;
+	}
+}
+
+
+
 .menu-container {
 	width: 100%;
-	font-family: $hand-written;
+	//font-family: $hand-written;
 	padding: 20px 0;
 	&__row {
 		display: -webkit-box;
@@ -183,8 +206,19 @@ hr {
 		    -ms-flex-align: start;
 		        align-items: flex-start;
 		width: 100%;
+		}
+
+		@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
+	.menu-container {
+		display: block;
+		display: none;
+	}
+	.menu-item {
+		display: block;
+		display: none;
 	}
 }
+	}
 
 .menu-item {
 	display: -webkit-box;
@@ -193,6 +227,31 @@ hr {
 	-webkit-box-align: start;
 	    -ms-flex-align: start;
 	        align-items: flex-start;
+	font-family: $hand-written;
+	font-size: 1rem;
+
+@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
+	.menu-container {
+		display: block;
+		display: none;
+	}
+	.menu-item {
+		display: block;
+		display: none;
+	}
+}
+
+}
+
+@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
+	.menu-container {
+		display: block;
+		display: none;
+	}
+	.menu-item {
+		display: block;
+		display: none;
+	}
 }
 
 .messenger-pic {
