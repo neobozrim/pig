@@ -346,7 +346,13 @@ hr {
 }
 
 .signup-card-size {
-	max-height: 40vh;
+	max-height: 50vh;
+}
+
+.subscribe-background {
+	color: #ffae42;
+	background-color: $black;
+	border-radius: 20px;
 }
 
 .wrapper {
