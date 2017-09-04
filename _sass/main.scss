@@ -5,7 +5,14 @@
 @include google-font('Gloria+Hallelujah');
 @include google-font('Raleway');
 
-
+@media screen and (max-width: 640px), 
+			or and (-webkit-max-device-pixel-ratio:1), 
+			or and (max-device-width: 640px) {
+	.menu-container {
+		display: block;
+		display: none;
+	} 
+}
 
 a {
 	text-decoration: underline;
@@ -172,26 +179,6 @@ hr {
 	border-radius: 30px;
 }
 
-@media only screen and (max-width: 500px) {
-	.menu-container {
-		display: block;
-		display: none;
-	} 
-}
-
-@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
-	.menu-container {
-		display: block;
-		display: none;
-	}
-	.menu-item {
-		display: block;
-		display: none;
-	}
-}
-
-
-
 .menu-container {
 	width: 100%;
 	//font-family: $hand-written;
@@ -207,17 +194,6 @@ hr {
 		        align-items: flex-start;
 		width: 100%;
 		}
-
-		@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
-	.menu-container {
-		display: block;
-		display: none;
-	}
-	.menu-item {
-		display: block;
-		display: none;
-	}
-}
 	}
 
 .menu-item {
@@ -229,17 +205,6 @@ hr {
 	        align-items: flex-start;
 	font-family: $hand-written;
 	font-size: 1rem;
-}
-
-@media screen and (-webkit-max-device-pixel-ratio:1) and (max-device-width: 500px) { 
-	.menu-container {
-		display: block;
-		display: none;
-	}
-	.menu-item {
-		display: block;
-		display: none;
-	}
 }
 
 .messenger-pic {
@@ -273,22 +238,4 @@ hr {
 	height: 100%;
 	min-height: 100vh;
 }
-
-@media screen and (max-width: 640px) 
-	and (max-device-width: 640px)
-	and (-webkit-min-device-pixel-ratio: 1) {
-		.display-none-mobile {
-		display: block;		
-		display: none;
-	}
-	}
-
-	@media screen and (min-width: 641px) 
-	and (min-device-width: 641px)
-	and (-webkit-min-device-pixel-ratio: 1) {
-		.display-none-desktop {
-		display: block;		
-		display: none;
-	}
-	}
 
