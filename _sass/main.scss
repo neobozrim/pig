@@ -47,6 +47,10 @@
 	max-height: 30vh;
 	}
 
+	.signup-card-size {
+		margin: 5% auto;
+	}
+
 	.vertical-space {
 		margin: 25% 0;
 	}
@@ -84,6 +88,10 @@
 
 	.scrolldown-card__size{
 		max-height: 20vh;
+	}
+
+	.signup-card-size {
+		margin: 0 auto;
 	}
 
 	.vertical-space {
@@ -170,8 +178,16 @@ a {
 	color: $light-grey;
 }
 
+a .orange {
+	color: $orange;
+}
+
 a:visited {
 	color: $light-grey;
+}
+
+a:visited .orange{
+	color: $orange;
 }
 
 a:hover, a:active {
@@ -184,12 +200,12 @@ a:hover, a:active {
 }
 
 .benefits {
-	font-family: $hand-written;
+	font-family: $internal-font;
 	font-size: 1rem;
 	line-height: 2rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	color: $darker-grey;
+	color: $orange;
 }
 
 $grid__bp-md: 1000;
@@ -232,6 +248,10 @@ $grid__cols: 12;
 			}
 		.internal-heading {
 			font-size: 2.5rem;
+		}
+
+		.internal-heading-small {
+			font-size: 1.5rem;
 		}
 		.internal-copy {
 			font-size: 1.5rem;
@@ -315,6 +335,12 @@ hr {
 	font-family: $headline-font;
 }
 
+.internal-heading-small {
+			font-size: 1.5rem;
+			font-family: $headline-font;
+			padding-top: 5%;
+		}
+
 .internal-copy {
 	font-family: $internal-font;
 	font-size: 1.5rem;
@@ -360,17 +386,29 @@ hr {
 }
 
 .signup-card-size {
-	max-height: 50vh;
-	height: 50vh;
-	padding: 0 5%;
-	//display: block;
-	margin: 0 auto;
+	max-height: 45vh;
+	height: 100vh;
+	padding: 0 10px;
 }
 
 .subscribe-background {
-	color: #ffae42;
+	color: $orange;
 	background-color: $black;
 	border-radius: 20px;
+	max-height: 80vh;
+}
+
+.subscribe-field {
+	width: 100%;
+	border-radius: 10px;
+	height: 40px;
+}
+
+.subscribe-button {
+	width: 100%;
+	border-radius: 10px;
+	height: 40px;
+	color: white;
 }
 
 .wrapper {
