@@ -17,6 +17,10 @@
     display: block;
     display: none; }
 
+  .hero-banner {
+    margin-top: 20%;
+    max-width: 95%; }
+
   .hero-heading {
     padding-top: 10%;
     font-size: 3.5rem;
@@ -49,6 +53,9 @@
     display: block;
     display: none;
     clear: both; }
+
+  .hero-banner {
+    max-width: 60%; }
 
   .hero-heading {
     padding-top: 10%;
@@ -447,7 +454,8 @@ hr {
   color: #ffae42;
   background-color: black;
   border-radius: 20px;
-  max-height: 80vh; }
+  height: 80vh;
+  max-height: contain; }
 
 .subscribe-field {
   width: 100%;
