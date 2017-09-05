@@ -29,6 +29,7 @@
 		.hero-banner {
 			margin-top: 20%;
 			max-width: 95%;
+			max-height: 40%;
 }
 	.hero-heading {
 		padding-top: 10%;
@@ -87,10 +88,11 @@
 
 	.hero-banner {
 	max-width: 60%;
+	max-height: 40%;
 }
 
 	.hero-heading {
-		padding-top: 10%;
+		//padding-top: 10%;
 		font-size: 4rem;
 	}
 
@@ -208,7 +210,7 @@ a:hover, a:active {
 
 .acorn-icon-size {
 	max-width: 45px;
-	//border-radius: 30px;
+	border-radius: 30px;
 }
 
 .benefits {
@@ -326,7 +328,7 @@ hr {
 }
 
 .hero-heading {
-	padding-top: 10%;
+	//padding-top: 10%;
 	//font-size: 3.5rem;
 	font-family: $headline-font;
 	-webkit-box-pack:center;
