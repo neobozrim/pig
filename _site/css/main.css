@@ -13,6 +13,9 @@
   .arrow-top {
     margin-top: 10%; }
 
+  footer {
+    font-size: 1rem; }
+
   .menu-container {
     display: block;
     display: none; }
@@ -39,6 +42,17 @@
 
   .vertical-space {
     margin: 25% 0; }
+
+  .footer-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1rem;
+    margin-left: 5%;
+    margin-top: 5%; }
 
   .menu-item {
     display: -webkit-box;
@@ -78,6 +92,16 @@
 
   .vertical-space {
     margin: 15% 0; }
+
+  .footer-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-family: "Gloria Hallelujah", cursive;
+    font-size: 1rem; }
 
   .menu-item {
     display: -webkit-box;
