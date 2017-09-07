@@ -59,9 +59,20 @@
 	}
 
 	.signup-card-size {
-		margin: 5% auto;
+	
+	height: 45vh;
+	padding: 0 10px;
+	margin-bottom: 10%;
+	
 	}
 
+	.subscribe-background {
+	color: $black;
+	background-color: $orange;
+	border-radius: 20px;
+	height: 120vh;
+	margin: 0 auto;
+}
 	.vertical-space {
 		margin: 25% 0;
 	}
@@ -112,6 +123,13 @@
 		font-size: 3.5rem;
 	}
 
+	.signup-card-size {
+	height: 45vh;
+	max-height: 100vh;
+	padding: 0 10px;
+	margin-bottom: 10%;
+	}
+
 	.scrolldown-card {
 		padding-top: 15%;
 	}
@@ -123,6 +141,14 @@
 	.signup-card-size {
 		margin: 0 auto;
 	}
+
+	.subscribe-background {
+	color: $black;
+	background-color: $orange;
+	border-radius: 20px;
+	height: 80vh;
+	max-height: 250vh;
+}
 
 	.vertical-space {
 	margin: 15% 0;
@@ -248,7 +274,7 @@ a:hover, a:active {
 	line-height: 2rem;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
-	color: $orange;
+	color: $black;
 }
 
 $grid__bp-md: 1000;
@@ -294,7 +320,7 @@ $grid__cols: 12;
 		}
 
 		.internal-heading-small {
-			font-size: 1.5rem;
+			font-size: 1rem;
 		}
 		.internal-copy {
 			font-size: 1.5rem;
@@ -407,6 +433,22 @@ footer {
 	border-radius: 30px;
 }
 
+.margin-top-5 {
+	margin-top: 0%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.margin-top-10 {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.margin-top-15 {
+	margin-top: 15%;
+}
+
 .menu-container {
 	width: 100%;
 	//font-family: $hand-written;
@@ -431,31 +473,24 @@ footer {
 	max-width: 135px;
 }
 
-.signup-card-size {
-	max-height: 45vh;
-	height: 100vh;
-	padding: 0 10px;
-}
-
-.subscribe-background {
-	color: $orange;
-	background-color: $black;
-	border-radius: 20px;
-	height: 80vh;
-	max-height: contain;
-}
-
 .subscribe-field {
-	width: 100%;
+	width: 90%;
 	border-radius: 10px;
-	height: 40px;
+	height: 30px;
+	margin: 0 auto;
+	border: none;
 }
 
 .subscribe-button {
-	width: 100%;
-	border-radius: 10px;
+	margin-top: 10%;
+	max-width: 200px;
+	width: 100px;
 	height: 40px;
-	color: white;
+	border-radius: 10px;
+	color: black;
+	font-family: $text-font;
+	border-size: 1px;
+	border-color: black;
 }
 
 .wrapper {
