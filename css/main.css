@@ -519,6 +519,9 @@ footer {
     align-items: flex-start;
     width: 100%; }
 
+.merch-size {
+  height: 65vh; }
+
 .messenger-pic {
   max-height: 135px;
   max-width: 135px; }
