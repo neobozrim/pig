@@ -380,6 +380,9 @@ hr {
   -ms-flex-pack: center;
   justify-content: center; }
 
+footer {
+  margin-top: 30vh; }
+
 .footer-pic-size {
   max-height: 60px; }
 
