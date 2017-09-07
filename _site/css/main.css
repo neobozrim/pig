@@ -72,7 +72,11 @@
     font-family: "Gloria Hallelujah", cursive;
     font-size: 2rem;
     margin-left: 5%;
-    margin-top: 5%; } }
+    margin-top: 5%; }
+
+  .tour {
+    display: block;
+    display: none; } }
 @media screen and (min-width: 641px), or and (-webkit-max-device-pixel-ratio: 1), or and (min-device-width: 640px) {
   .mobile-menu {
     display: block;
@@ -111,6 +115,12 @@
     border-radius: 20px;
     height: 80vh;
     max-height: 250vh; }
+
+  .tour {
+    position: fixed;
+    left: 80%;
+    width: 100%;
+    z-index: 100; }
 
   .horisontal-center {
     margin: 0 auto; }
@@ -544,12 +554,6 @@ footer {
   border-size: 1px;
   border-color: #6A6667;
   drop-shadow: none; }
-
-.tour {
-  position: fixed;
-  left: 80%;
-  width: 100%;
-  z-index: 100; }
 
 .wrapper {
   height: 100%;
