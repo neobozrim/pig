@@ -42,6 +42,9 @@
     padding: 0 10px;
     margin-bottom: 10%; }
 
+  .signup-card-size-3 {
+    margin-top: 10%; }
+
   .subscribe-background {
     color: black;
     background-color: #ffae42;
@@ -90,7 +93,7 @@
   .hero-heading {
     font-size: 3.5rem; }
 
-  .signup-card-size {
+  .signup-card-size, .signup-card-size-3 {
     height: 45vh;
     max-height: 100vh;
     padding: 0 10px;
