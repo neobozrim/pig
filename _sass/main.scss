@@ -42,22 +42,6 @@
 		font-size: 3rem;
 	}
 
-//	.logo {
-//	max-height: 60px;
-//	max-width: 60px;
-//	border-radius: 30px;
-//	margin-left: 5%;
-//	margin-top: 5%;
-//	}
-
-	.scrolldown-card {
-		padding-top: 25%;
-	}
-
-	.scrolldown-card__size{
-	max-height: 30vh;
-	}
-
 	.signup-card-size {
 	
 	height: 45vh;
@@ -356,6 +340,9 @@ hr {
 	margin-top: 5%;
 }
 
+.darker-grey {
+	color: $darker-grey;
+}
 
 
 .flex-center {
@@ -502,7 +489,18 @@ footer {
 	color: black;
 	font-family: $text-font;
 	border-size: 1px;
-	border-color: black;
+	//border-color: black;
+	border-color: $darker-grey;
+	drop-shadow: none;
+
+}
+
+.tour {
+    position: fixed;
+    left: 80%;
+    width: 100%;
+    //height: 100vh;
+    z-index: 100;
 }
 
 .wrapper {

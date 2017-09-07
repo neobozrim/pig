@@ -31,12 +31,6 @@
     padding-top: 10%;
     font-size: 3rem; }
 
-  .scrolldown-card {
-    padding-top: 25%; }
-
-  .scrolldown-card__size {
-    max-height: 30vh; }
-
   .signup-card-size {
     height: 45vh;
     padding: 0 10px;
@@ -424,6 +418,9 @@ hr {
   color: #AFAFA8;
   margin-top: 5%; }
 
+.darker-grey {
+  color: #6A6667; }
+
 .flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -539,7 +536,14 @@ footer {
   color: black;
   font-family: "Raleway", sans-serif;
   border-size: 1px;
-  border-color: black; }
+  border-color: #6A6667;
+  drop-shadow: none; }
+
+.tour {
+  position: fixed;
+  left: 80%;
+  width: 100%;
+  z-index: 100; }
 
 .wrapper {
   height: 100%;
