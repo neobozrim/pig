@@ -116,12 +116,6 @@
     height: 80vh;
     max-height: 250vh; }
 
-  .tour {
-    position: fixed;
-    left: 80%;
-    width: 100%;
-    z-index: 100; }
-
   .horisontal-center {
     margin: 0 auto; }
 
