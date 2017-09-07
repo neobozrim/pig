@@ -154,6 +154,9 @@
 	max-height: 250vh;
 }
 
+	.horisontal-center {
+		margin: 0 auto;
+	}
 	.vertical-space {
 	margin: 15% 0;
 	}
@@ -362,6 +365,7 @@ hr {
 	-webkit-box-pack:center;
 	    -ms-flex-pack:center;
 	        justify-content:center;
+	margin: 0 auto;
 }
 
 footer {
@@ -436,6 +440,10 @@ footer {
 	max-width: 45px;
 	border-radius: 30px;
 }
+
+.margin-bottom-10 {
+	margin-bottom: 10%;
+} 
 
 .margin-top-5 {
 	margin-top: 0%;
