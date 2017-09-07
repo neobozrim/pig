@@ -18,9 +18,11 @@
     display: none; }
 
   .hero-banner {
+    max-width: 1034px;
+    max-height: 665px;
     margin-top: 20%;
-    max-width: 95%;
-    max-height: 40%; }
+    width: 85%;
+    height: 40%; }
 
   .hero-heading {
     padding-top: 10%;
@@ -56,11 +58,15 @@
     clear: both; }
 
   .hero-banner {
-    max-width: 60%;
-    max-height: 40%; }
+    width: 776px;
+    height: 449px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 85%;
+    height: auto; }
 
   .hero-heading {
-    font-size: 4rem; }
+    font-size: 3.5rem; }
 
   .scrolldown-card {
     padding-top: 15%; }
@@ -394,7 +400,7 @@ hr {
   font-family: "Bowlby One SC", cursive;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  margin: auto; }
 
 .hero-subheading {
   font-family: "Raleway", sans-serif;
