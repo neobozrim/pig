@@ -39,6 +39,9 @@
   .signup-card-size-3 {
     margin-top: 10%; }
 
+  .scrolldown-card__size {
+    max-height: 20vh; }
+
   .subscribe-background {
     color: black;
     background-color: #ffae42;
