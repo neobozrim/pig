@@ -269,16 +269,8 @@ a {
 	color: $light-grey;
 }
 
-a .orange {
-	color: $orange;
-}
-
 a:visited {
 	color: $light-grey;
-}
-
-a:visited .orange{
-	color: $orange;
 }
 
 a:hover, a:active {
@@ -353,6 +345,15 @@ $grid__cols: 12;
 		}
 		}
 	}
+}
+
+.border {
+	border-style: solid;
+	border-width: 1px;
+	border-color: $darker-grey;
+	border-radius: 30px;
+	padding: 10px;
+	margin-top: 10%;
 }
 
 .cta {
@@ -515,6 +516,16 @@ footer {
 	max-width: 135px;
 }
 
+.orange {
+	a {
+		color: $orange;
+	}
+
+	a:visited{
+	color: $orange;
+	}
+}
+
 .subscribe-field {
 	width: 100%;
 	border-radius: 10px;
@@ -533,7 +544,7 @@ footer {
 	font-family: $text-font;
 	border-size: 1px;
 	//border-color: black;
-	border-color: $darker-grey;
+	border-color: $black;
 	drop-shadow: none;
 
 }

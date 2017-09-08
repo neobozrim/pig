@@ -201,14 +201,8 @@ a {
   text-decoration: underline;
   color: #AFAFA8; }
 
-a .orange {
-  color: #ffae42; }
-
 a:visited {
   color: #AFAFA8; }
-
-a:visited .orange {
-  color: #ffae42; }
 
 a:hover, a:active {
   color: black; }
@@ -414,6 +408,14 @@ a:hover, a:active {
     .container-n .menu-item {
       font-size: 1rem; } }
 
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #6A6667;
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 10%; }
+
 .cta {
   font-family: "Bowlby One SC", cursive;
   color: #53585F; }
@@ -543,6 +545,11 @@ footer {
   max-height: 135px;
   max-width: 135px; }
 
+.orange a {
+  color: #ffae42; }
+.orange a:visited {
+  color: #ffae42; }
+
 .subscribe-field {
   width: 100%;
   border-radius: 10px;
@@ -559,7 +566,7 @@ footer {
   color: black;
   font-family: "Raleway", sans-serif;
   border-size: 1px;
-  border-color: #6A6667;
+  border-color: black;
   drop-shadow: none; }
 
 .wrapper {
