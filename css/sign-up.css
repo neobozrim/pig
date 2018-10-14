@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: 'adysbold';
+    src: url('../fonts/adys-bold_v5-webfont.woff2') format('woff2'),
+         url('../fonts/adys-bold_v5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adysregular';
+    src: url('../fonts/adys-regular_v5-webfont.woff2') format('woff2'),
+         url('../fonts/adys-regular_v5-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'adysregular';
+    font-size: 16px;
+}
+
+.sa-container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sa-header {
+    margin-top: 25px;
+}
+
+.sa-sign-up {
+    margin-top: 60px;
+    height: 360px;
+    position: relative;
+}
+
+.sa-sign-up img {
+    position: absolute;
+}
+
+.sa-sign-up h2 {
+    font-family: adysbold;
+    font-size: 32px;
+    color: #0A0B09;
+    max-width: 388px;
+    margin: 0 auto;
+}
+
+.sa-ill-flying {
+    top: 0;
+    left: 0;
+}
+
+.sa-ill-rumor {
+    top: 50px;
+    right: 0;
+}
+
+.sa-email-label {
+    font-size: 18px;
+    color: #0C0D0D;
+    display: block;
+    max-width: 480px;
+    text-align: left;
+    margin: 20px auto 10px auto;
+}
+
+.sa-email-input {
+    width: 100%;
+    max-width: 480px;
+    height: 71px;
+    box-sizing: border-box;
+    background: url('../img/input-bg.svg');
+    background-size: cover;
+    overflow: visible;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: adysregular;
+}
+
+.sa-email-input:focus {
+    outline: none;
+}
+
+
+
+
