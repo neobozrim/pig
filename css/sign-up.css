@@ -52,10 +52,11 @@ body {
 
 h2 {
     font-family: adysbold;
-    font-size: 32px;
+    font-size: 26px;
     color: #0A0B09;
     max-width: 388px;
     margin: 0 auto;
+    line-height: 1.25;
 }
 
 .sa-ill-flying {
@@ -74,7 +75,7 @@ h2 {
     display: block;
     max-width: 480px;
     text-align: left;
-    margin: 20px auto 10px auto;
+    margin: 40px auto 10px auto;
 }
 
 .sa-email-input {
