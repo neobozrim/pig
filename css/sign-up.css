@@ -17,6 +17,10 @@
 
 }
 
+::selection {
+    background: rgba(144, 19, 254, .3);
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -39,7 +43,6 @@ body {
 
 .sa-sign-up {
     margin-top: 60px;
-    height: 360px;
     position: relative;
 }
 
@@ -47,7 +50,7 @@ body {
     position: absolute;
 }
 
-.sa-sign-up h2 {
+h2 {
     font-family: adysbold;
     font-size: 32px;
     color: #0A0B09;
@@ -57,12 +60,12 @@ body {
 
 .sa-ill-flying {
     top: 0;
-    left: 0;
+    left: 50px;
 }
 
 .sa-ill-rumor {
-    top: 50px;
-    right: 0;
+    top: 120px;
+    right: 20px;
 }
 
 .sa-email-label {
@@ -86,11 +89,171 @@ body {
     padding: 10px 20px;
     font-size: 20px;
     font-family: adysregular;
+    line-height: 1;
 }
 
 .sa-email-input:focus {
     outline: none;
+    background: url('../img/input-bg-focus.svg');
+    background-size: cover;
 }
+
+.sa-email-button {
+    background: url('../img/button-bg.svg');
+    background-size: cover;
+    border: none;
+    width: 190px;
+    height: 64px;
+    margin-top: 30px;
+    font-family: adysbold;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: 0.2s;
+    transform: scale(1);
+}
+
+.sa-email-button:hover {
+    cursor: pointer;
+    filter: grayscale(20%);
+}
+
+.sa-email-button:focus {
+    outline: none;
+    transform: scale(1);
+}
+
+.sa-email-button:active {
+    transform: scale(0.85);
+}
+
+.sa-info {
+    margin-top: 80px;
+}
+
+.sa-info p {
+    max-width: 620px;
+    margin: 0 auto;
+    font-family: adysregular;
+    font-size: 16px;
+    color: #0A0B09;
+    text-align: left;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.sa-info p a {
+    color: #9013FE;
+}
+
+.sa-partners-container {
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.sa-partners-container img {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.sa-partners-container span {
+    display: block;
+    font-family: adysbold;
+    margin-bottom: 15px;
+}
+
+.sa-partners-vk {
+    margin-left: 120px;
+}
+
+.title-holder-bg::before {
+    content: 'Bulgaria';
+    display: block;
+    position: absolute;
+
+}
+
+footer {
+    text-align: left;
+    padding: 50px 0px 100px 0px;
+}
+
+.sa-footer-wordmark {
+    float: right;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+body {
+    padding: 20px;
+}
+
+.sa-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sa-ill-flying,
+.sa-ill-rumor {
+    display: none;
+}
+
+.sa-email-input,
+.sa-email-input:focus {
+    width: 100%;
+    background-size: 100% 100%;
+}
+.sa-email-label {
+    margin-bottom: 5px;
+}
+
+.sa-info {
+    margin-top: 20px;
+}
+
+.sa-info img[src="img/divider.svg"] {
+    width: 100%;
+}
+
+.sa-info p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sa-partners-container  {
+    display: block;
+}
+
+.sa-partners-container img {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.sa-partners-vk {
+    margin-left: 0;
+    text-align: left!important;
+}
+
+.sa-footer-wordmark {
+    float: none;
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
+
+}
+
+
+
+
+
 
 
 
