@@ -1,26 +1,71 @@
----
-layout: default
----
-<div class="wrapper">
-	<div class="container-n flex-center">
-		<div class="container-n__row flex-center">
-			<!-- <div class="container-n__col-sm-10 container-n__col-md-12"><img src="{{site.baseurl}}/assets/img/sa-fb-profile-pic.png" class="logo"></div> -->
-			<div class=""><img src="{{site.baseurl}}/assets/img/SA-deck-simple.png" class=" flex-center hero-banner" alt="A card game about squirrels and inventions. Presenting the deck."></div>
-			<div class="container-n__col-sm-10 container-n__col-md-12 flex-center hero-heading">SQUIRREL ATTACK!</div>
-			<div class="container-n__col-sm-10 container-n__col-md-12 flex-center hero-subheading">A party card game about squirrels and inventions.</div>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Squirrel Attack!</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="sa-container">
+	<div class="preload-input"></div>
+	<section class="sa-header"></section>
+		<img src="img/logo-symbol-100.png" alt="squirrel attack logo">
+	<section class="sa-sign-up">
+		<img class="sa-ill-flying" src="img/flying-bagpack.png" alt="flying  squirrel">
+		<img class="sa-ill-rumor" src="img/rumor-new.png" alt="squirrel pointing at form">
+		<h2>Sign up and share our path to Kickstarter!</h2>
+		<div id="mc_embed_signup">
+			<form action="https://facebook.us16.list-manage.com/subscribe/post?u=dbadf4b4f7dbcacd171499525&amp;id=8ee7be8888" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll">
+				
+					<div class="mc-field-group">
+						<label for="mce-EMAIL" class="sa-email-label">Email:</label>
+						<input type="email" value="" name="EMAIL" class="required email sa-email-input" id="mce-EMAIL">
+					</div>
+					<div id="mce-responses" class="clear">
+						<div class="response" id="mce-error-response" style="display:none"></div>
+						<div class="response" id="mce-success-response" style="display:none"></div>
+					</div>    
+				<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    	<div style="position: absolute; left: -5000px;" aria-hidden="true">
+			    		<input type="text" name="b_dbadf4b4f7dbcacd171499525_8ee7be8888" tabindex="-1" value="">
+			    	</div>
+				    <div class="clear">
+				    	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button sa-email-button">
+				    </div>
+			    </div>
+			</form>
 		</div>
-	</div>
-</div>
-<div class="wrapper">
-{% include signup-form.html %}
-{% include like-us-fb.html %}
+	</section>
+	<section class="sa-info">
+		<h2>About the game</h2>
+		<p>Squirrel Attack is a board game inspired by the squirrels at the Michigan State University campus and created in Sofia, Bulgaria. You and your fellow inventors compete with each other creating inventions that transfer the progress of humans to the lives of squirrels. The one who does best becomes the New Squirrel Idol... unless you collectively lose the game and thus bring an end to humankind. Do you have what it takes to become the New Squirrel Idol? Subscribe to follow our journey to Kickstarter or <a href="mailto:hi@squirrelattack.games">reach out to say hi </a>&#128640;.</p>
+		<h2>Our partners:</h2>
+		<div class="sa-partners-container sa-partners-bg">
+			<span>Bulgaria:</span>
+			<img src="img/karkason.png" alt="karkason logo">
+			<img src="img/bar-restart.png" alt="bar restart logo">
+			<img src="img/varna-games-logo.png" alt="varna games logo">
+			<img src="img/sofia-game-night.png" alt="sofia games night logo">
+		</div>
+		<div class="sa-partners-container sa-partners-vk">
+			<span>Vietnam:</span>
+			<img src="img/the-nest.png" alt="sofia games night logo">
+		</div>
+		<img src="img/divider.svg" alt="section divider">
+	</section>
+	<footer>
+		<span>&copy; 2017 - 2018 Squirrel Attack!</span> 
+		<span class="sa-footer-wordmark">Holistically crafted in Sofia, Bulgaria</span>
+		<span class="sa-social-links">
+			<a href="https://www.facebook.com/squirrel.attack.game/" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.instagram.com/squirrelattack.boardgame/" target="_blank"><i class="fab fa-instagram"></i></a>
+		</span>
+	</footer>
 </div>
 
-<!-- 
-<div class="hero">
-		<div class="hero-heading row">SQUIRREL ATTACK!</div>
-	</div>
-	<div class="hero">
-		<div class="hero-subheading row">A party card game about squirrels and inventions.</div>
-	</div>
-	-->
+
+</body>
+</html>
