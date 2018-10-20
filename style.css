@@ -102,6 +102,12 @@ h2 {
     background-size: cover;
 }
 
+.preload-input {
+    background: url('../img/button-bg.svg');
+    display: none;
+
+}
+
 .sa-email-button {
     background: url('../img/button-bg.svg');
     background-size: cover;
